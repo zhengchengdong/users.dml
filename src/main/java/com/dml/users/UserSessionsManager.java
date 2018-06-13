@@ -166,8 +166,4 @@ public class UserSessionsManager {
 		this.id = id;
 	}
 
-	public void setIdSessionMap(Map<String, UserSession> idSessionMap) {
-		this.idSessionMap = idSessionMap;
-	}
-
 }
