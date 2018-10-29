@@ -83,4 +83,28 @@ public class UsersManager {
 		}
 	}
 
+	public Map<String, User> getUserIdUserMap() {
+		return userIdUserMap;
+	}
+
+	public void setUserIdUserMap(Map<String, User> userIdUserMap) {
+		this.userIdUserMap = userIdUserMap;
+	}
+
+	public Map<AuthKey, Authorization> getAuthKeyAuthMap() {
+		return authKeyAuthMap;
+	}
+
+	public void setAuthKeyAuthMap(Map<AuthKey, Authorization> authKeyAuthMap) {
+		this.authKeyAuthMap = authKeyAuthMap;
+	}
+
+	public Map<AuthKey, String> getAuthKeyUserIdMap() {
+		return authKeyUserIdMap;
+	}
+
+	public void setAuthKeyUserIdMap(Map<AuthKey, String> authKeyUserIdMap) {
+		this.authKeyUserIdMap = authKeyUserIdMap;
+	}
+
 }
