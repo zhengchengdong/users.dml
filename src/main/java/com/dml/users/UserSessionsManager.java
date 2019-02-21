@@ -151,7 +151,7 @@ public class UserSessionsManager {
 		}
 	}
 
-	public void updateUserSession(String sessionId, long currentTime, int sessionKeepTime) {
+	public void updateUserSession(String sessionId, long currentTime, long sessionKeepTime) {
 		UserSession session = idSessionMap.get(sessionId);
 		if (session != null) {
 			session.setTimeoutTime(currentTime + sessionKeepTime);
